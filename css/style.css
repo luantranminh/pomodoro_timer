@@ -1,0 +1,57 @@
+* {
+  margin: 0; padding: 0;
+}
+.nav-top li, .nav-bot li {
+  cursor: pointer;
+}
+.nav-top {
+  width: 1000x; height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+.nav-top li  {
+  box-sizing: border-box;
+  width: 200px; height: auto;
+  padding: 10px 40px;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  display: inline-block;
+}
+
+#time {
+  text-align: center;
+  width: 100px; height: auto;
+  margin: 30px auto;
+}
+
+.nav-bot {
+  width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.nav-bot li {
+  box-sizing: border-box;
+  width: 100px; height: auto;
+  padding: 20px 0;
+  margin: 0 15px;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  text-align: center;
+  display: inline-block;
+}
+
+#stopbut {
+  background-color: #FF3A20;
+  color: #FFFFFF;
+}
+
+
+#startbut {
+  background-color: #4EC91E;
+  color: #FFFFFF;
+  text
+}
+
+#resetbut {
+  background-color: #FFFFFF;
+  color: #0000000;
+}
