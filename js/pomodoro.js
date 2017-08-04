@@ -5,6 +5,7 @@ count = 0
 x = null;
 
 $(document).ready(function() {
+  Pomodoro(); stop();
   $('#pomodoro').click(function() { Pomodoro(); });
   $('#shortbreak').click(function() { ShortBreak(); });
   $('#longbreak').click(function() { LongBreak(); });
@@ -13,7 +14,6 @@ $(document).ready(function() {
 
 
 function Pomodoro() {
-
   reset(pomodoro);
   start(pomodoro);
   $('#startbut').click(function() { start(pomodoro); });
