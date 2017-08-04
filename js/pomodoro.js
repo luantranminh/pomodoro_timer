@@ -34,7 +34,7 @@ function LongBreak() {
   start(longBreak);
   $('#startbut').click(function() { start(longBreak); });
   $('#stopbut').click(function() { stop(); });
-  $('#resetbut').click(function() { reset(longbreak); });
+  $('#resetbut').click(function() { reset(longBreak); });
 }
 function start(time) {
   if(x != null) return;
