@@ -19,6 +19,8 @@
 
 #time {
   text-align: center;
+  font-size: 50pt;
+  font-style: bold;
   width: 100px; height: auto;
   margin: 30px auto;
 }
